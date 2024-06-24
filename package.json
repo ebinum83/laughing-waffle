@@ -1,0 +1,16 @@
+{
+  "name": "laughing-waffle",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "Daryl Ebinum",
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^2.12.0"
+  }
+}

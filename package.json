@@ -2,6 +2,7 @@
   "name": "laughing-waffle",
   "version": "1.0.0",
   "description": "",
+  "homepage": ".",
   "source": "src/index.html",
   "scripts": {
     "lint": "prettier -w .",

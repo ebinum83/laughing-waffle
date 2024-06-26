@@ -1,117 +1,137 @@
 <!doctype html>
-<html class="h-full">
-  <head lang="en">
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Laughing Waffles " />
-    <title>Laughing Waffles</title>
-    <link href="assets/css/tailwind.min.css" rel="stylesheet" />
-    <script src="assets/js/metamask.js" type="module"></script>
-    <link
-      rel="icon"
-      type="image/xml+svg"
-      sizes="512x512"
-      href="assets/img/logo.svg"
-    />
-  </head>
+<html lang="en">
 
-  <body class="flex flex-col min-h-full">
-    <!-- navbar -->
-    <nav class="flex items-center justify-between bg-black p-4">
-      <div class="flex items-center">
-        <a href="/">
-          <img src="assets/img/logo.png" alt="logo" class="h-8 w-8 ml-4" />
-        </a>
-        <a href="/">
-          <h1
-            class="text-gray-600 hover:text-yellow-600 text-3xl font-bold ml-4"
-          >
-            Waffles
-          </h1>
-        </a>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EBIN1DA</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet" />
+  <link href="assets/css/styles.css" rel="stylesheet" />
+  <script src="assets/js/metamask.js" type="module"></script>
+  <link rel="icon" type="image/xml+svg" sizes="512x512" href="assets/img/debo.svg" />
+</head>
+
+<body class="flex flex-col min-h-screen">
+  <!-- navbar -->
+  <nav class="bg-black text-gray-400 p-4 flex justify-between items-center">
+    <div class="flex items-center">
+      <!--change the footer to include this instead of just text -->
+      <a href="#" class="flex items-center ml-4 debo-title text-yellow-400 hover:text-yellow-600">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" class="h-8 w-8" fill="none">
+          <mask id="path-1-inside-1_11026_166003" fill="currentColor">
+            <path
+              d="M0 6.4C0 4.15979 0 3.03969 0.435974 2.18404C0.819467 1.43139 1.43139 0.819467 2.18404 0.435974C3.03969 0 4.15979 0 6.4 0H9.6C11.8402 0 12.9603 0 13.816 0.435974C14.5686 0.819467 15.1805 1.43139 15.564 2.18404C16 3.03969 16 4.15979 16 6.4V9.6C16 11.8402 16 12.9603 15.564 13.816C15.1805 14.5686 14.5686 15.1805 13.816 15.564C12.9603 16 11.8402 16 9.6 16H6.4C4.15979 16 3.03969 16 2.18404 15.564C1.43139 15.1805 0.819467 14.5686 0.435974 13.816C0 12.9603 0 11.8402 0 9.6V6.4Z" />
+          </mask>
+          <path
+            d="M0 6.4C0 4.15979 0 3.03969 0.435974 2.18404C0.819467 1.43139 1.43139 0.819467 2.18404 0.435974C3.03969 0 4.15979 0 6.4 0H9.6C11.8402 0 12.9603 0 13.816 0.435974C14.5686 0.819467 15.1805 1.43139 15.564 2.18404C16 3.03969 16 4.15979 16 6.4V9.6C16 11.8402 16 12.9603 15.564 13.816C15.1805 14.5686 14.5686 15.1805 13.816 15.564C12.9603 16 11.8402 16 9.6 16H6.4C4.15979 16 3.03969 16 2.18404 15.564C1.43139 15.1805 0.819467 14.5686 0.435974 13.816C0 12.9603 0 11.8402 0 9.6V6.4Z"
+            fill="none" />
+          <path
+            d="M-1 4C-1 1.23858 1.23858 -1 4 -1H12C14.7614 -1 17 1.23858 17 4H15C15 2.34315 13.6569 1 12 1H4C2.34315 1 1 2.34315 1 4H-1ZM17 13C17 15.7614 14.7614 18 12 18H4C1.23858 18 -1 15.7614 -1 13L1 12C1 13.1046 2.34315 14 4 14H12C13.6569 14 15 13.1046 15 12L17 13ZM4 18C1.23858 18 -1 15.7614 -1 13V4C-1 1.23858 1.23858 -1 4 -1V1C2.34315 1 1 2.34315 1 4V12C1 13.1046 2.34315 14 4 14V18ZM12 -1C14.7614 -1 17 1.23858 17 4V13C17 15.7614 14.7614 18 12 18V14C13.6569 14 15 13.1046 15 12V4C15 2.34315 13.6569 1 12 1V-1Z"
+            fill="currentColor" mask="url(#path-1-inside-1_11026_166003)" />
+          <path
+            d="M7.55877 11H5.09428V3.72727H7.60849C8.33055 3.72727 8.95082 3.87287 9.46928 4.16406C9.99012 4.45289 10.3902 4.86837 10.6696 5.41051C10.9489 5.95265 11.0886 6.60133 11.0886 7.35653C11.0886 8.11411 10.9477 8.76515 10.666 9.30966C10.3867 9.85417 9.98301 10.272 9.45508 10.5632C8.92951 10.8544 8.29741 11 7.55877 11ZM6.41175 9.86009H7.49485C8.00148 9.86009 8.42406 9.76776 8.76261 9.5831C9.10115 9.39607 9.35565 9.1179 9.5261 8.74858C9.69656 8.37689 9.78178 7.91288 9.78178 7.35653C9.78178 6.80019 9.69656 6.33854 9.5261 5.97159C9.35565 5.60227 9.10352 5.32647 8.76971 5.14418C8.43827 4.95952 8.02634 4.86719 7.53391 4.86719H6.41175V9.86009Z"
+            fill="currentColor" />
+        </svg>
+        EBO</a>
+    </div>
+
+    <div id="userAccount" class="hidden flex items-center space-x-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" class="text-yellow-400 h-8 w-8"
+        fill="white">
+        <path
+          d="M8.00016 1.33398C4.32418 1.33398 1.3335 4.32468 1.3335 8.00065C1.3335 11.6766 4.32418 14.6673 8.00016 14.6673C11.6761 14.6673 14.6668 11.6766 14.6668 8.00065C14.6668 4.32468 11.6761 1.33398 8.00016 1.33398ZM8.00016 2.33398C11.1357 2.33398 13.6668 4.86511 13.6668 8.00065C13.6668 11.1362 11.1357 13.6673 8.00016 13.6673C4.86462 13.6673 2.3335 11.1362 2.3335 8.00065C2.3335 4.86511 4.86462 2.33398 8.00016 2.33398ZM8.00016 4.00065C7.37516 4.00065 6.8431 4.25303 6.50146 4.63737C6.15983 5.02171 6.00016 5.51454 6.00016 6.00065C6.00016 6.48676 6.15983 6.97959 6.50146 7.36393C6.8431 7.74827 7.37516 8.00065 8.00016 8.00065C8.62516 8.00065 9.15722 7.74827 9.49886 7.36393C9.8405 6.97959 10.0002 6.48676 10.0002 6.00065C10.0002 5.51454 9.8405 5.02171 9.49886 4.63737C9.15722 4.25303 8.62516 4.00065 8.00016 4.00065ZM8.00016 5.00065C8.37516 5.00065 8.5931 5.12327 8.75146 5.30143C8.90983 5.47959 9.00016 5.73676 9.00016 6.00065C9.00016 6.26454 8.90983 6.52171 8.75146 6.69987C8.5931 6.87803 8.37516 7.00065 8.00016 7.00065C7.62516 7.00065 7.40722 6.87803 7.24886 6.69987C7.0905 6.52171 7.00016 6.26454 7.00016 6.00065C7.00016 5.73676 7.0905 5.47959 7.24886 5.30143C7.40722 5.12327 7.62516 5.00065 8.00016 5.00065ZM5.75342 8.66732C5.15958 8.66732 4.66683 9.15967 4.66683 9.75391V10.1146C4.66683 10.7772 5.08567 11.3531 5.68245 11.7337C6.27924 12.1143 7.07659 12.3346 8.00016 12.3346C8.92374 12.3346 9.72108 12.1143 10.3179 11.7337C10.9147 11.3531 11.3335 10.7772 11.3335 10.1146V9.75391C11.3335 9.16007 10.8411 8.66732 10.2469 8.66732H5.75342ZM5.75342 9.66732H10.2469C10.3007 9.66732 10.3335 9.70041 10.3335 9.75391V10.1146C10.3335 10.3519 10.1787 10.6364 9.78011 10.8906C9.38148 11.1449 8.76159 11.3346 8.00016 11.3346C7.23874 11.3346 6.61884 11.1449 6.22021 10.8906C5.82158 10.6364 5.66683 10.3519 5.66683 10.1146V9.75391C5.66683 9.70014 5.69992 9.66732 5.75342 9.66732Z"
+          fill="currentColor" />
+      </svg>
+
+      <div class="flex items-center space-x-2">
+        <span class="text-white">Account:</span>
+        <span id="account" class="text-gray-500"></span>
       </div>
-      <ul class="flex items-center">
-        <li class="mx-2">
-          <a href="/" class="text-gray-600 hover:text-yellow-600">Link1</a>
-        </li>
-        <li class="mx-2">
-          <a href="/" class="text-gray-600 hover:text-yellow-600">Link2</a>
-        </li>
-        <li class="mx-2">
-          <a href="/" class="text-gray-600 hover:text-yellow-600">Link3</a>
-        </li>
-      </ul>
-      <div class="flex items-center space-x-4" id="walletButtons">
-        <button
-          id="connectButton"
-          class="bg-yellow-500 hover:bg-yellow-700 text-black font-bold py-2 px-4 rounded-xl items-center mr-4"
-        >
-          Connect Wallet
-        </button>
-        <div id="userAccount" class="hidden flex items-center space-x-2">
-          <img
-            src="https://placehold.co/30"
-            alt="user-account"
-            class="h-8 w-8 rounded-full"
-          />
-          <div class="flex items-center space-x-2">
-            <span class="text-white">Account:</span>
-            <span id="account" class="text-gray-600"></span>
-          </div>
-          <!-- <div class="flex items-center space-x-2">
-          <span class="text-white">Balance:</span>
-          <span id="balance" class="text-gray-600"></span>
-        </div> -->
-        </div>
+      <div class="flex items-center space-x-2">
+        <span class="text-white">Balance:</span>
+        <span id="balance" class="text-gray-500"></span>
       </div>
-    </nav>
+    </div>
+    </div>
+    </div>
 
-    <!-- Header -->
-    <header class="bg-white text-gray-900 p-8">
-      <div>
-        <h1 class="text-2xl font-bold mb-4 w-full text-center">Waffles</h1>
-        <p class="w-full">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-          euismod, nisi vel bibendum tincidunt, velit nunc lacinia nunc. Sed
-          auctor, magna a bibendum tincidunt, nunc elit tincidunt nunc. Proin
-          eget nunc eget nunc tincidunt tincidunt. Vestibulum ante ipsum primis
-          in faucibus orci luctus et ultrices posuere cubilia curae.
-        </p>
+    <!-- dropdown -->
+    <div class="relative">
+      <button id="menuButton" class="flex items-center focus:outline-none mr-4">
+        <!-- <span>Menu</span> -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"
+          class="w-8 h-8 text-yellow-400 hover:text-yellow-600">
+          <path fill="currentColor" fill-rule="evenodd"
+            d="M6.75 4.5a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5M2.5 6.75a4.25 4.25 0 1 1 8.5 0 4.25 4.25 0 0 1-8.5 0M17.25 4.5a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5M13 6.75a4.25 4.25 0 1 1 8.5 0 4.25 4.25 0 0 1-8.5 0M6.75 15a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5M2.5 17.25a4.25 4.25 0 1 1 8.5 0 4.25 4.25 0 0 1-8.5 0M17.25 15a2.25 2.25 0 1 0 0 4.5 2.25 2.25 0 0 0 0-4.5M13 17.25a4.25 4.25 0 1 1 8.5 0 4.25 4.25 0 0 1-8.5 0"
+            clip-rule="evenodd"></path>
+        </svg>
+      </button>
+      <div id="dropdownMenu"
+        class="dropdown-menu absolute right-0 mt-2 w-32 bg-black text-gray-400 text-center rounded-lg shadow-lg py-1">
+        <a href="/" class="block px-4 py-2 text-sm hover:bg-gray-700">Link 1</a>
+        <a href="/" class="block px-4 py-2 text-sm hover:bg-gray-700">Link 2</a>
+        <a href="/" class="block px-4 py-2 text-sm hover:bg-gray-700">Link 3</a>
+        <a href="/" class="block px-4 py-2 text-sm hover:bg-gray-700">Link 4</a>
       </div>
-    </header>
+    </div>
+  </nav>
 
-    <!-- Card -->
-    <main class="p-8 flex justify-center">
-      <div class="bg-black text-gray-600 rounded-xl p-8 w-full md:w-1/2">
-        <h2 class="text-2xl font-bold mb-4">Waffles</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-          euismod, nisi vel bibendum tincidunt, velit nunc lacinia nunc. Sed
-          auctor, magna a bibendum tincidunt, nunc elit tincidunt nunc. Proin
-          eget nunc eget nunc tincidunt tincidunt. Vestibulum ante ipsum primis
-          in faucibus orci luctus et ultrices posuere cubilia curae.
-        </p>
-      </div>
-    </main>
+  <!-- header -->
+  <header class="my-8">
+    <h1 class="text-center text-4xl font-bold">Welcome!</h1>
+  </header>
 
-    <!-- Footer
-    <footer class="bg-zinc-900 text-gray-500 text-center p-4 mb-4">
-      <a href="/" class="text-gray-400"
-        >&copy; <span id="year"></span> Laughing Waffles</a
-      >
-    </footer> -->
+  <!-- main -->
+  <main class="flex-grow">
+    <section class="mb-8 px-4">
+      <p class="text-center">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+        lacinia odio vitae vestibulum vestibulum.
+      </p>
+    </section>
 
-    <!-- footer -->
-    <footer class="bg-zinc-900 py-4 relative mt-auto">
-      <div class="text-center">
-        <a href="/" class="text-gray-500"
-          >&copy; <span id="year"></span> Laughing Waffles</a
-        >
-      </div>
-    </footer>
+    <!-- card -->
+    <section class="mb-8 flex justify-center px-4">
+      <div class="bg-black shadow-md rounded-xl p-4 w-1/2">
+        <script src="https://widgets.coingecko.com/gecko-coin-list-widget.js"></script>
+        <gecko-coin-list-widget locale="en" dark-mode="true" transparent-background="true" outlined="true"
+          coin-ids="solana,bitcoin,binancecoin,shiba-inu,dogecoin,aave,kyber-network-crystal,pancakeswap-token,uniswap,near,ethereum,tether,pepe,bittorrent"
+          initial-currency="usd" width="0"></gecko-coin-list-widget>
+        <br />
+        <br />
 
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
-  </body>
+        <!-- connect wallet -->
+        <div class="flex items-center space-x-4" id="walletButtons">
+          <button id="connectButton"
+            class="bg-yellow-400 hover:bg-yellow-600 text-black font-bold py-2 px-4 rounded-xl items-center mr-4">
+            Connect Wallet
+          </button>
+    </section>
+  </main>
+
+  <!-- footer -->
+  <footer class="bg-black p-4 text-center mt-auto">
+    <a href="/" class="foooter hover:text-yellow-600 text-yellow-400 flex items-center justify-center">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" class="h-8 w-8" fill="none">
+        <mask id="path-1-inside-1_11026_166003" fill="currentColor">
+          <path
+            d="M0 6.4C0 4.15979 0 3.03969 0.435974 2.18404C0.819467 1.43139 1.43139 0.819467 2.18404 0.435974C3.03969 0 4.15979 0 6.4 0H9.6C11.8402 0 12.9603 0 13.816 0.435974C14.5686 0.819467 15.1805 1.43139 15.564 2.18404C16 3.03969 16 4.15979 16 6.4V9.6C16 11.8402 16 12.9603 15.564 13.816C15.1805 14.5686 14.5686 15.1805 13.816 15.564C12.9603 16 11.8402 16 9.6 16H6.4C4.15979 16 3.03969 16 2.18404 15.564C1.43139 15.1805 0.819467 14.5686 0.435974 13.816C0 12.9603 0 11.8402 0 9.6V6.4Z" />
+        </mask>
+        <path
+          d="M0 6.4C0 4.15979 0 3.03969 0.435974 2.18404C0.819467 1.43139 1.43139 0.819467 2.18404 0.435974C3.03969 0 4.15979 0 6.4 0H9.6C11.8402 0 12.9603 0 13.816 0.435974C14.5686 0.819467 15.1805 1.43139 15.564 2.18404C16 3.03969 16 4.15979 16 6.4V9.6C16 11.8402 16 12.9603 15.564 13.816C15.1805 14.5686 14.5686 15.1805 13.816 15.564C12.9603 16 11.8402 16 9.6 16H6.4C4.15979 16 3.03969 16 2.18404 15.564C1.43139 15.1805 0.819467 14.5686 0.435974 13.816C0 12.9603 0 11.8402 0 9.6V6.4Z"
+          fill="none" />
+        <path
+          d="M-1 4C-1 1.23858 1.23858 -1 4 -1H12C14.7614 -1 17 1.23858 17 4H15C15 2.34315 13.6569 1 12 1H4C2.34315 1 1 2.34315 1 4H-1ZM17 13C17 15.7614 14.7614 18 12 18H4C1.23858 18 -1 15.7614 -1 13L1 12C1 13.1046 2.34315 14 4 14H12C13.6569 14 15 13.1046 15 12L17 13ZM4 18C1.23858 18 -1 15.7614 -1 13V4C-1 1.23858 1.23858 -1 4 -1V1C2.34315 1 1 2.34315 1 4V12C1 13.1046 2.34315 14 4 14V18ZM12 -1C14.7614 -1 17 1.23858 17 4V13C17 15.7614 14.7614 18 12 18V14C13.6569 14 15 13.1046 15 12V4C15 2.34315 13.6569 1 12 1V-1Z"
+          fill="currentColor" mask="url(#path-1-inside-1_11026_166003)" />
+        <path
+          d="M7.55877 11H5.09428V3.72727H7.60849C8.33055 3.72727 8.95082 3.87287 9.46928 4.16406C9.99012 4.45289 10.3902 4.86837 10.6696 5.41051C10.9489 5.95265 11.0886 6.60133 11.0886 7.35653C11.0886 8.11411 10.9477 8.76515 10.666 9.30966C10.3867 9.85417 9.98301 10.272 9.45508 10.5632C8.92951 10.8544 8.29741 11 7.55877 11ZM6.41175 9.86009H7.49485C8.00148 9.86009 8.42406 9.76776 8.76261 9.5831C9.10115 9.39607 9.35565 9.1179 9.5261 8.74858C9.69656 8.37689 9.78178 7.91288 9.78178 7.35653C9.78178 6.80019 9.69656 6.33854 9.5261 5.97159C9.35565 5.60227 9.10352 5.32647 8.76971 5.14418C8.43827 4.95952 8.02634 4.86719 7.53391 4.86719H6.41175V9.86009Z"
+          fill="currentColor" />
+      </svg>
+      EBO
+    </a>
+    <span class="text-sm text-yellow-400">&copy;</span> <span class="text-sm text-yellow-400" id="year"></span>
+  </footer>
+
+  <script src="assets/js/utils.js"></script>
+</body>
 </html>

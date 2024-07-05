@@ -61,7 +61,7 @@ module.exports = {
     timeout: 100000,
   },
 
-  contracts_build_directory: "../src/abis/",
+  contracts_build_directory: "./src/abis/",
 
   compilers: {
     solc: {

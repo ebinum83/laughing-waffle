@@ -5,6 +5,7 @@
   "homepage": ".",
   "source": "src/index.html",
   "scripts": {
+    "ganache": "bash ./scripts/ganache.sh",
     "lint": "prettier -w .",
     "clean": "rm -rf .parcel-cache dist",
     "dev": "yarn clean && parcel",
